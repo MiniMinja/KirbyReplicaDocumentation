@@ -6,7 +6,7 @@
 <p>&nbsp;</p>
 
 ## Description:
->A basic script that follows the , keeping Kirby centered on the screen
+A basic script that follows Kirby, keeping it centered on the screen
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -14,7 +14,7 @@
 ## Data:
 
 ### GameObject **kirby**
->Reference to the kirby object
+Reference to the kirby object
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -24,4 +24,4 @@
 ### Start()
 
 ### Update()
->sets the position of the camera to kirby's position
+Sets the position of the camera to kirby's position
