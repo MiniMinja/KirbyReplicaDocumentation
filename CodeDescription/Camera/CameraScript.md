@@ -11,6 +11,16 @@ A basic script that follows Kirby, keeping it centered on the screen
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
+# Table of Contents
+- [Data](#data)
+    - [kirby](#gameobject-kirby)
+- [Functions](#functions)
+    - [Start](#start)
+    - [Update](#update)
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
 ## Data:
 
 ### GameObject **kirby**
