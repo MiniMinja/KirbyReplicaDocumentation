@@ -1,6 +1,6 @@
-# CharacterDamageBehavior
+# NameOfFile
 
-#### MonoBehaviour
+#### InheritedClass
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
