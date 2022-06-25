@@ -41,6 +41,8 @@ how strong the knockback is
 `string opposingTag`  
 the tag that causes the gameobject to take damage. Basically, kirby takes damage from enemy and the enemy takes damage from kirby.
 
+<br>
+
 ### **Instance:**
 `bool invulnerable`  
 tells whether or not the character is invulnerable
@@ -65,10 +67,15 @@ initializes the instance variables
 checks for collision with enemy colliders
 
 `TakeDamage(Vector3 knockBackDir)`  
-calls for invulnerability and deals knockback
+calls for invulnerability and deals knockback when character is not invulnerable. Calls `BeInvulnerable()` and `Knockback()` functions.
 
-`BeInvulnerable()`
+`BeInvulnerable()`  
+a coroutine that makes the character invulnerable. Invulnerability duration is specifed in the `invulnerableTime` variable
 
-`Invulnerable()`
+`Invulnerable()`  
+returns whether or not the character is invulnerable
 
-`Knockback(Vector3 knockbackDir)`
+`Knockback(Vector3 knockbackDir)`  
+adds a(n impulse) force to the character, simulating a knockback
+
+`GetSucked(Vector3 pullDir)`
