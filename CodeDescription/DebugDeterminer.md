@@ -17,9 +17,9 @@ Currently, debug data displays
 # Table of Contents
 - [Data](#data)
     - [kirby](#public-gameobject-kirby)
-    - [showVelocity](#public-gameobject-showVelocity)
+    - [showVelocity](#public-gameobject-showvelocity)
     - [enemy](#public-gameobject-enemy)
-    - [showVelocityOfEnemy](#public-bool-showVelocityOfEnemy)
+    - [showVelocityOfEnemy](#public-bool-showvelocityofenemy)
     - [kirby_rb](#rigidbody2d-kirbyrb)
     - [enemy_rb](#rigidbody2d-enemyrb)
 - [Functions](#functions)
