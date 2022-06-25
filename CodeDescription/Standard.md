@@ -3,6 +3,9 @@
 #### InheritedClass
 
 <p>&nbsp;</p>
+
+[back to table of contents](/CodeDescription/TableOfContents.md)
+
 <p>&nbsp;</p>
 
 ## Description:
