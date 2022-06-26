@@ -35,6 +35,10 @@ description of variables
 
 ## Functions:
 
+### **Public:**
+
+### **Private:**
+
 `Start()`
 
 `Update()`
