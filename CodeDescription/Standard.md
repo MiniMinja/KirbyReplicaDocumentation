@@ -23,13 +23,18 @@
 
 ## Data:
 
-### GameObject **kirby**
+### **Public:**
+
+`GameObject kirby`  
+description of variables
+
+### **Instance**
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
 ## Functions:
 
-### Start()
+`Start()`
 
-### Update()
+`Update()`
