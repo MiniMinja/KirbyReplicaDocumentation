@@ -4,3 +4,4 @@
     - [CameraScript](/CodeDescription/Camera/CameraScript.md)
 - **Character**
     - [CharacterDamageBehavior](/CodeDescription/Character/CharacterDamageBehavior.md)
+    - [FeetChecker](/CodeDescription/Character/FeetChecker.md)
