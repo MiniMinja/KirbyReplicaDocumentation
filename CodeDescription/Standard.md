@@ -28,7 +28,7 @@
 `GameObject kirby`  
 description of variables
 
-### **Instance**
+### **Private:**
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>

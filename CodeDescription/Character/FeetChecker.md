@@ -1,6 +1,6 @@
 # FeetChecker
 
-#### MonoBehavior
+#### MonoBehaviour
 
 <p>&nbsp;</p>
 
@@ -29,7 +29,7 @@ This is the script that attaches to the 'feet' gameobject. Through hitboxes, it 
 `float landTime`  
 the time it takes for the character to land before it is grounded
 
-### **Instance:**
+### **Private:**
 
 `bool landing`  
 a variable that tells us if the character is landing before it is grounded

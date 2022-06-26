@@ -43,7 +43,7 @@ the tag that causes the gameobject to take damage. Basically, kirby takes damage
 
 <br>
 
-### **Instance:**
+### **Private:**
 `bool invulnerable`  
 tells whether or not the character is invulnerable
 
@@ -58,13 +58,7 @@ character's rigidbody (physics component)
 
 ## Functions:
 
-`Start()`  
-initializes the instance variables
-
-`Update()`
-
-`OnTriggerEnter2D(Collider2D collider)`  
-checks for collision with enemy colliders
+### **Public:**
 
 `TakeDamage(Vector3 knockBackDir)`  
 calls for invulnerability and deals knockback when character is not invulnerable. Calls `BeInvulnerable()` and `Knockback()` functions.
@@ -79,3 +73,13 @@ returns whether or not the character is invulnerable
 adds a(n impulse) force to the character, simulating a knockback
 
 `GetSucked(Vector3 pullDir)`
+
+### **Private:**
+
+`Start()`  
+initializes the instance variables
+
+`Update()`
+
+`OnTriggerEnter2D(Collider2D collider)`  
+checks for collision with enemy colliders
