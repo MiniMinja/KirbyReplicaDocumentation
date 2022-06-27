@@ -22,8 +22,10 @@ Also deals damage to itself whenever it enters a specified "enemy collider".
 # Table of Contents
 - [Data](#data)
     - [Public](#public)
-    - [Instance](#instance)
+    - [Private](#private)
 - [Functions](#functions)
+    - [Public](#public-1)
+    - [Private](#instance-1)
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>

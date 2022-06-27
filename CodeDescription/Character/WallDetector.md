@@ -17,7 +17,11 @@ This script attaches to the 'hand' objects (left and right). This script checks 
 
 # Table of Contents
 - [Data](#data)
+    - [Public](#public)
+    - [Private](#private)
 - [Functions](#functions)
+    - [Public](#public-1)
+    - [Private](#instance-1)
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>

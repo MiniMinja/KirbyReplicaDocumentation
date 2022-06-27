@@ -18,7 +18,11 @@ Currently, the enemy just moves in a straight line, and, once colliding with a w
 
 # Table of Contents
 - [Data](#data)
+    - [Public](#public)
+    - [Private](#private)
 - [Functions](#functions)
+    - [Public](#public-1)
+    - [Private](#instance-1)
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
