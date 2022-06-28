@@ -21,7 +21,7 @@ This is the script that attaches to the 'feet' gameobject. Through hitboxes, it 
     - [Private](#private)
 - [Functions](#functions)
     - [Public](#public-1)
-    - [Private](#instance-1)
+    - [Private](#private-1)
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -45,6 +45,10 @@ tells whether or not the character is grounded.
 <p>&nbsp;</p>
 
 ## Functions:
+
+### **Public:**
+
+### **Private:**
 
 `OnTriggerEnter2D(Collider2D collision)`
 starts the `Land()` coroutine, setting a timer to be grounded when the feet check the ground (character got right ontop of ground)

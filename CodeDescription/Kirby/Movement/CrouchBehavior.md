@@ -20,7 +20,7 @@ This script defines the logic for Kirby's crouch. The logic behind Kirby's crouc
     - [Private](#private)
 - [Functions](#functions)
     - [Public](#public-1)
-    - [Private](#instance-1)
+    - [Private](#private-1)
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>

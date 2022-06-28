@@ -20,7 +20,7 @@
     - [Private](#private)
 - [Functions](#functions)
     - [Public](#public-1)
-    - [Private](#instance-1)
+    - [Private](#private-1)
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>

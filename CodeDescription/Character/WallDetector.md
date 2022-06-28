@@ -21,7 +21,7 @@ This script attaches to the 'hand' objects (left and right). This script checks 
     - [Private](#private)
 - [Functions](#functions)
     - [Public](#public-1)
-    - [Private](#instance-1)
+    - [Private](#private-1)
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -30,7 +30,7 @@ This script attaches to the 'hand' objects (left and right). This script checks 
 
 ### **Public:**
 
-### **Instance:**
+### **Private:**
 
 `bool foundWall`  
 tells whether the 'hand' gameobjects collided with the wall
@@ -45,7 +45,7 @@ tells whether the 'hand' gameobjects collided with the wall
 `bool WallFound()`  
 returns the `foundWall` variable
 
-### **Instance:**
+### **Private:**
 
 `Start()`  
 initializes the foundWall variable
