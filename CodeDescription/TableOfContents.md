@@ -8,3 +8,6 @@
     - [WallDetector](/CodeDescription/Character/WallDetector.md)
 - **Enemy**
     - [EnemyMovementController](/CodeDescription/Enemy/EnemyMovementController.md)
+- **Kirby**
+    - **Movement**
+        - [CrouchBehavior](/CodeDescription/Kirby/Movement/CrouchBehavior.md)
