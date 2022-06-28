@@ -65,13 +65,13 @@ tells whether or not Kirby has jumped. This variable is used to indicate an even
 `bool flutter`  
 tells whether or not Kirby flutters (pushed up in flutter form), differing from `fluttering`. This is used to indicate an event between two functions that get executed on different threads (i.e. `Update()` and `FixedUpdate()`).
 
-`bool fluttering`
+`bool fluttering`  
 tells whether or not Kirby is in the fluttering form (inflated or not).
 
-`bool exitFlutter`
+`bool exitFlutter`  
 tells whether or not Kirby is exiting flutter, acting as an indicator for the *transition* between fluttering and non-fluttering states.
 
-`int dir`
+`int dir`  
 tells which direction Kirby is facing (`-1` is left, `1` is right).
 
 <p>&nbsp;</p>
