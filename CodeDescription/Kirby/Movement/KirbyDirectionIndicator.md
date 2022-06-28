@@ -29,10 +29,10 @@ This script exists to flip Kirby's sprite to show the player which direction kir
 
 ### **Public:**
 
-`GameObject kirby`  
-description of variables
-
 ### **Private:**
+
+`KirbyMovementController kirby_move_script`  
+reference to the [move script](/CodeDescription/Kirby/Movement/KirbyMovementController.md)
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -43,6 +43,8 @@ description of variables
 
 ### **Private:**
 
-`Start()`
+`Start()`  
+initializes `kirby_move_script`
 
-`Update()`
+`Update()`  
+transforms the `transform.localScale` to flip kirby around depending on the [movement script](/CodeDescription/Kirby/Movement/KirbyMovementController.md). A value of `-1` indicates left and `1` indicates right.

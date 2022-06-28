@@ -11,3 +11,5 @@
 - **Kirby**
     - **Movement**
         - [CrouchBehavior](/CodeDescription/Kirby/Movement/CrouchBehavior.md)
+        - [KirbyDirectionIndicator](/CodeDescription/Kirby/Movement/KirbyDirectionIndicator.md)
+        
