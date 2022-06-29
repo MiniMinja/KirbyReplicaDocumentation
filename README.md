@@ -1,6 +1,6 @@
 # Kirby Replica Documentation
 
-This is the documentation for the code I have for my Kirby replica game. 
+This is the documentation for the code I have for my Kirby replica game (see [code](https://github.com/MiniMinja/KirbyReplicaCode)).
 
 (As of 6/25/2022)  
 I plan on splitting this documentation into two versions: 
