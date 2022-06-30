@@ -9,7 +9,7 @@
 <p>&nbsp;</p>
 
 ## Description:
-This script controls and defines Kirby's movement including jumping and fluttering. It reads user input and behaves accordingly ('a' is left, etc). This script also shares data about Kirby's movement such as whether or not Kirby is in the air or crouching.
+This script controls and defines Kirby's movement including jumping and fluttering. It reads user input and behaves accordingly ('a' is left, etc). This script also shares data about Kirby's movement such as whether or not Kirby is in the air or crouching. This script uses public functions to *activate* a movement behavior (for example, jumping is *activated* by the Jump function).
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -81,8 +81,42 @@ tells which direction Kirby is facing (`-1` is left, `1` is right).
 
 ### **Public:**
 
+`void Jump()`  
+sets the jump variable to true.
+
+`void Flutter()`  
+sets the flutter variables to true. It also changes the drag appropriately. 
+It also calls the sprite script to do fluttering animations. 
+
+`void LoseFlutter()`  
+sets all flutter variables to false. It also changes the drag appropriately.
+It calls the sprite script to do idle animations.
+
+`bool IsFluttering()`  
+returns the `fluttering` variable.
+
+`void ExitFlutter()`  
+starts the transition to exiting flutter by setting the `exitFlutter` to true.
+
+`void FullyExitFlutter()`
+finalizes the transition of exiting flutter by setting `exitFlutter` to false.
+
+`bool ExitingFlutter()`  
+returns the `exitFlutter` variable.
+
+`int CurrentDirection()`  
+returns the `dir` variable.
+
+`bool Grounded()`  
+acts as a passing function for the `FeetChecker.Grounded()` function.
+
 ### **Private:**
 
-`Start()`
+`Start()`  
+initializes all the private variables.
 
-`Update()`
+`Update()`  
+commands the logic of Kirby's movement from user input. This calls the public functions instead of changing the variables directly.
+
+`FixedUpdate()`  
+depending on the state of the variables, it applies certain forces to Kirby's rigidbody component.
