@@ -11,6 +11,8 @@
 ## Description:
 This script controls and defines Kirby's movement including jumping and fluttering. It reads user input and behaves accordingly ('a' is left, etc). This script also shares data about Kirby's movement such as whether or not Kirby is in the air or crouching. This script uses public functions to *activate* a movement behavior (for example, jumping is *activated* by the Jump function).
 
+Alot of the code uses variables as a means to communicated information between the `Update()` and the `FixedUpdate()` function. In order to communicate ideas about button presses, variables are set through public functions
+
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
