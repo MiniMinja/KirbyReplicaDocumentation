@@ -51,13 +51,14 @@ the direction the airblast moves (`-1` for left, `1` for right).
 ### **Public:**
 
 `void Blast(int dir)`  
-this function is like an "*activation code*" that 1. sets this object to be true and 2. initializes all the proper variables. It's like an accessible `Start()` function.
+this function is like an "*activation code*" that 1. sets this object to be active and 2. initializes all the proper variables. It's like an accessible `Start()` function.
 
 ### **Private:**
 
 `void Start()`  
 
 `void Update()`  
-  
+moves the object in a set direction and destroys it once it fully slows down.
 
 `void OnTriggerEnter2D(Collider2D collision)`  
+if the airblast hits an enemy, it deals damage to the enemy calling the `TakeDamage` function in [CharacterDamageBehavior](/CodeDescription/Character/CharacterDamageBehavior.md).
