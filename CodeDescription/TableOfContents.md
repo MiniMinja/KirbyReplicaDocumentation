@@ -15,3 +15,6 @@
         - [KirbyMovementController](/CodeDescription/Kirby/Movement/KirbyMovementController.md)
     - **NeutralAttack**
         - [AirBlastScript](/CodeDescription/Kirby/NeutralAttack/AirBlastScript.md)
+        - [AttackHitboxScript](/CodeDescription/Kirby/NeutralAttack/AttackHitboxScript.md)
+        - [KirbyNeutralAttackActivator](/CodeDescription/Kirby/NeutralAttack/KirbyNeutralAttackActivator.md)
+        - [KirbyNeutralAttackBehavior](/CodeDescription/Kirby/NeutralAttack/KirbyNeutralAttackBehavior.md)
